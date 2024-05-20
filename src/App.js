@@ -18,11 +18,8 @@ app.use(morgan("dev"));
 
 app.use("/api", authRoutes);
 
-
 app.get("/", (req, res) => {
   res.send("Hello World!");
+});
 
 export default app;
-
-
-
